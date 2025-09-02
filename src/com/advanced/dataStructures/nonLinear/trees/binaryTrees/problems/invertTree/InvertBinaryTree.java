@@ -1,4 +1,5 @@
 package com.advanced.dataStructures.nonLinear.trees.binaryTrees.problems.invertTree;
+
 class TreeNode {
     int data;
     TreeNode left;
@@ -44,7 +45,5 @@ public class InvertBinaryTree {
         System.out.println("Inverted");
         inOrder(root);
 
-
-        
     }
 }
